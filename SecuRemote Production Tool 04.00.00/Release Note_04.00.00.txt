@@ -1,0 +1,553 @@
+Version: 04.00.00 
+****************************************************
+Release Dt.: 25-June-2015
+User Guide Version: SecuRemote Production Tool Guide 03 01 07, RAS Production Tool Installation Guide 01 00 00 
+- Change the user guide.
+Modification:
+- Use 'SecuRemote_DeviceList.xlsx' file for to store device information.
+- Add 'Padlock' device in device menu list.
+- Add LPC Bootloader file selection option in 'SR UL325 Garage',‘SR Bridge Cellular’ and ‘SR Bridge Ethernet’ device settings.
+- Add Bootloader file selection in 'SR Bridge BLE Board' device setting. 
+
+Version: 03.01.08 
+****************************************************
+Release Dt.: 23-May-2015
+User Guide Version: RAS Production Tool Guide 03 01 06, RAS Production Tool Installation Guide 01 00 00 
+- Change the user guide.
+Modification:
+- Use 'RAS_DeviceList_Rev13.xlsx' file for to store device information.
+- Add Factory Code in ‘SR RAS 2.0’, ‘SR UL325 Garage’, ‘SR Range Extender’, ‘SR Keyfob 2.0’, ‘SR Keeler 2.0’, ‘SR Devkit 4.0’, ‘SR Bridge BLE Board’, ‘SR Bridge Cellular’, ‘SR Bridge Ethernet’, ‘SR RAS 1.5 COM Board’, ‘Smart Safe 1.5’, ‘Dual Mode Smart Garage’ device settings.
+- Add support to print  Manufacturer Name,IC#,Date Code and Factory Code in ‘SR RAS 2.0’, ‘SR UL325 Garage’, ‘SR Range Extender’, ‘SR Keyfob 2.0’, ‘SR Keeler 2.0’, ‘SR Devkit 4.0’, ‘SR Bridge BLE Board’, ‘SR Bridge Cellular’, ‘SR Bridge Ethernet’, ‘SR RAS 1.5 COM Board’, ‘Smart Safe 1.5’, ‘Dual Mode Smart Garage’ device.
+- Add 8 seconds delay before start configure 'SR Keeler 2.0' device.
+Version: 03.01.06 
+****************************************************
+Release Dt.: 24-April-2015
+User Guide Version: RAS Production Tool Guide 03 01 05, RAS Production Tool Installation Guide 01 00 00 
+- Change the user guide.
+Modification:
+- Add command for Disable/Enable the debug log in ‘UL325 Garage’, ‘SR Bridge Cellular’ and ‘SR Bridge Ethernet’ devices.
+Version: 03.01.06 
+****************************************************
+Release Dt.: 13-April-2015
+User Guide Version: RAS Production Tool Guide 03 01 04, RAS Production Tool Installation Guide 01 00 00 
+Modification:
+- Use 'RAS_DeviceList_Rev12.xlsx' file for to store device information.
+- Update the FWOLib file 1.0.19.0.
+- Add IC# during to add new Model# in 'Model Number' functionality GUI.
+- Display IC# in 'Admin Interface' functionality GUI.
+- Display IC# in 'SR RAS 2.0', 'SR UL325 Garage', 'SR Range Extender', 'SR Devkit 4.0', 'SR Keeler 2.0', 'SR Keyfob2.0', 'SR Bridge BLE Board', 'SR Bridge Cellular', 'SR RAS 1.5 COM Board', 'Smart Safe 1.5', 'Dual Mode Smart Garage', 'Mortise Door', 'BTIP Gateway' and 'Light' devices Settings GUI. 
+- Print IC# in 'SR RAS 2.0', 'Sr Keelre 2.0', 'SR UL325 Garage', 'SR Bridge BLE Board' and 'SR Devkit 4.0'.
+Version: 03.01.05 
+****************************************************
+Release Dt.: 01-April-2015
+User Guide Version: RAS Production Tool Guide 03 01 04, RAS Production Tool Installation Guide 01 00 00 
+- Change the user guide.
+Modification:
+- Dispaly 'Security Token' during device configuration time in main window.(In SR RAS 2.0, SR UL325 Garage, SR Range Extender, SR Devkit 4.0, SR Keeler 2.0 and SR Bridge BLE Board)
+- Display 'EEPROM fail status' during SR Keeler 2.0 configuration time If EPPROM not work properly.
+Version: 03.01.04 
+****************************************************
+Release Dt.: 12-March-2015
+User Guide Version: RAS Production Tool Guide 03 01 03, RAS Production Tool Installation Guide 01 00 00 
+- Change the user guide.
+Modification:
+- Rename ‘Keyfob 1.5’ to ‘SR Keyfob 1.5’ and ‘Keyfob 2.0’ to ‘SR Keyfob 2.0’, ‘RAS 2.0’ to ‘SR RAS 2.0’, ‘UL325 Garage’ to  ‘SR UL325 Garage’, ‘Range Extender’ to ‘SR Range Extender’, ‘Devkit’ to ‘SR Devkit 4.0’ and  ‘Keeler 2.0’ to ‘SR Keeler 2.0’ in device list and messages (Main Form and Admin Interface).Change label text in device setings.
+- Register SR Keeler 2.0 device on server after load Audio Files.
+Version: 03.01.03 
+****************************************************
+Release Dt.: 11-March-2015
+User Guide Version: RAS Production Tool Guide 03 01 03, RAS Production Tool Installation Guide 01 00 00 
+- Change the user guide.
+Modification:
+- Rename ‘Keyfob (SR BLE Only)’ to ‘Keyfob 1.5’ and ‘Keyfob (SR MESH Node)’ to ‘Keyfob 2.0’. 
+- Remove ‘RAS 1.6 (SR BLE Only)’ from RAS Production Tool. Change device selection list in Main window and Admin interface window.
+- Use 'RAS_DeviceList_Rev10.xlsx' file for to store device information.
+- Waiting for Welcome message during start to load Audio Files in Keeler device if Load Firmware or Configure action is selected. After get Welcome message, wait for 3 Seconds to start load audio files.
+- Remove 'Bootloader' file selection in 'SR Bridge BLE' device and 'Devkit'.  
+Version: 03.01.02 
+****************************************************
+Release Dt.: 26-Feb-2015
+User Guide Version: RAS Production Tool Guide 03 01 02, RAS Production Tool Installation Guide 01 00 00 
+- Change the user guide.
+Modification:
+- Update the FWOLib file 1.0.18.0. (During Register SR Device, Pass ANT Serial# = "00000000" and Security Token = "0000000000" where ANT Serial# and Security Token is blank) 
+Version: 03.01.01 
+****************************************************
+Release Dt.: 17-Feb-2015
+User Guide Version: RAS Production Tool Guide 03 01 01, RAS Production Tool Installation Guide 01 00 00 
+- Change the user guide.
+Modification:
+- Change Device List selection menu in Main page and Admin Interface.
+- Update the FWOLib file 1.0.17.0. 
+- Rename 'RAS 1.6 (SR MESH Node) to 'RAS 2.0 (SR Mesh Node)'.
+- Add 'UL325 Garage', 'SR Bridge BLE Board', 'SR Bridge Ethernet' and 'SR Bridge Cellular' devices in device menu list.
+- Use checksum instead of CRC in 'RAS 1.6', 'RAS 2.0', 'UL325 Garage', 'Range Extender', 'Devkit', 'Keeler 2.0', 'SR Bridge BLE Board', 'SR Bridge Ethernet' and 'SR Bridge Cellular' devices.
+Open Issue:
+- During device registration security Token hardcoded set '0000000000' instead of blank in FWOLib file. 
+
+Version: 02.01.12 
+****************************************************
+Release Dt.: 11-Dec-2014
+User Guide Version: RAS Production Tool Guide 02 01 19, RAS Production Tool Installation Guide 01 00 00 
+- Change the user guide.
+Modification:
+- Change Device List selection menu in Main page and Admin Interface.
+- Update the FWOLib file 1.0.16.0. 
+- Add 'Keyfob' device in SR BLE Only. 
+- Add 'Range Extender', 'Devkit' and 'Keeler 2.0' device in SR MESH Node.
+- 'Dual Mode Smart Garage' and 'UL325 Garage' devices register as 'Garage Door'.
+- 'Keeler 2.0 device register as 'Mortise Door'.
+- 'SR RAS 1.6 (BLE ANT)', 'SR RAS 1.6 (BLE Only)', 'Range Extender', 'Devkit', 'Keyfob (SR MESH Node)' devices    as 'SR RAS 1.5 COM Board'.
+
+Version: 02.01.11 
+****************************************************
+Release Dt.: 17-Nov-2014
+User Guide Version: RAS Production Tool Guide 02 01 18, RAS Production Tool Installation Guide 01 00 00 
+- Change the user guide.
+Modification:
+- Change Device List selection menu in Main page and Admin Interface.
+- Add RAS 1.6 (SR MESH Node) device in list.
+- Configure the Keyfob device.
+- Update the FWOLib file 1.0.15.0. 
+
+Version: 02.01.10 
+****************************************************
+Release Dt.: 10-Sep-2014
+User Guide Version: RAS Production Tool Guide 02 01 17, RAS Production Tool Installation Guide 01 00 00 
+- Change the user guide.
+
+Version: 02.01.09 
+****************************************************
+Release Dt.: 29-Aug-2014
+User Guide Version: RAS Production Tool Guide 02 01 16, RAS Production Tool Installation Guide 01 00 00 
+Modification:
+- Encrypt and decrypt the Serial# and Security Token by using AES-CBC algorithm for QR code label.
+
+Version: 02.01.08 (Rerelease with updated user guide)
+****************************************************
+Release Dt.: 21-Aug-2014
+User Guide Version: RAS Production Tool Guide 02 01 16, RAS Production Tool Installation Guide 01 00 00 
+
+Version: 02.01.08
+****************************************************
+Release Dt.: 14-Aug-2014
+User Guide Version: RAS Production Tool Guide 02 01 15, RAS Production Tool Installation Guide 01 00 00 (User Guide is not updated)
+
+Modification:
+- Set default Model# : 'SRD831' , FCC ID : '06R2398'in 'SR ANT BLE COM Board' device.
+
+Issue Solved : RAS 02.01.07
+- Save FCC ID in device configuration  settings file when user click on 'Save' button in 'SR ANT BLE COM Board' device.
+
+Version: 02.01.07
+****************************************************
+Release Dt.: 13-Aug-2014
+User Guide Version: RAS Production Tool Guide 02 01 15, RAS Production Tool Installation Guide 01 00 00 (User Guide is not updated)
+Modification:
+- Add 'SR ANT BLE COM Board' device type in device list and admin inter face.
+- Auto upgrade MSP430 programmer firmware.
+- Update the FWOLib file 1.0.14.0.
+- Use 'RAS_DeviceList_Rev6.xlsx' file for to store device information.
+
+- ANT Serial#, AES Keys and security Token will be not display in Admin Interface. For check, please us 'RAS_DeviceList_Rev6.xlsx' file.  
+
+Issue:
+- FCC ID is not save in device configuration  settings file when user click on 'Save' button in 'SR ANT BLE COM Board' device.
+
+Version: 02.01.06
+****************************************************
+Release Dt.: 14-April-2014
+User Guide Version: RAS Production Tool Guide 02 01 15, RAS Production Tool Installation Guide 01 00 00
+Modification:
+- Add some status messages and take care for to close device list file during start the test in all devices.
+- Display the popup to save device configuration settings If user has made any change in device settings and forget to save changes during reprint the label and start to create the new devices.
+
+Version: 02.01.05
+****************************************************
+Release Dt.: 07-April-2014
+User Guide Version: RAS Production Tool Guide 02 01 14, RAS Production Tool Installation Guide 01 00 00
+Modification:
+- Restart the BarTender print engine during print the device label.
+
+Issue:
+- If only one test checkbox is not checked in test list and user fastly double click on it then ‘Test All’ checkbox checked event is disturbed. 
+- During device testing if user moving or dragging the popup then it’s not closed. Multiple popup open if user have selected or dragged the popup.
+
+Version: 02.01.04
+****************************************************
+Release Dt.: 03-April-2014
+User Guide Version: RAS Production Tool Guide 02 01 13, RAS Production Tool Installation Guide 01 00 00
+
+Modification:
+- Set text alignment on left side in Device Info. and Build Info. export file.
+
+Issue:
+- If only one test checkbox is not checked in test list and user fastly double click on it then ‘Test All’ checkbox checked event is disturbed. 
+- During device testing if user moving or dragging the popup then it’s not closed. Multiple popup open if user have selected or dragged the popup.
+
+Version: 02.01.03
+****************************************************
+Release Dt.: 28-March-2014
+User Guide Version: RAS Production Tool Guide 02 01 13, RAS Production Tool Installation Guide 01 00 00
+Modification:
+- Update the FWOLib file 1.0.13.0.
+- Use 'RAS_DeviceList_Rev5.xlsx' file for to store device information.
+- Change caption ‘SR Com Board’ to ‘SR RAS Module’, ‘Safe Com Board’ to ‘SR SAFE Module’ and ‘Smart Deadbolt’ to ‘SR RAS COM Board’.
+- Change caption ‘Smart Deadbolt with Housing’ to ‘SR RAS COM Board with Housing’ and ‘Smart Deadbolt without Housing’ to ‘SR RAS COM Board without Housing’ in Device testing.
+- Move ‘Is active’ column at end In Admin Interface.
+- Save comments in ‘.csv’ file during export device data in Admin Interface.
+- Change caption ‘Print label with existing information’ to ‘Retrieve Serial # from device & Print it’ in Reprint label functionality.
+- Production tool will rename the tables like ‘SR_Com_Board’ to ‘SR_RAS_Module’, ‘Safe_Com_Board’ to ‘SR_SAFE_Module’ and ‘Smart_Deadbolt’ to ‘SR_RAS_COM_Board’ in configuration settings file When RAS 02.01.03 is run.
+- Production tool will use device label printing file as per selected label file location which is set in device label settings during label printing time.
+
+Issue:
+- If only one test checkbox is not checked in test list and user fastly double click on it then ‘Test All’ checkbox checked event is disturbed. 
+- During device testing if user moving or dragging the popup then it’s not closed. Multiple popup open if user have selected or dragged the popup.
+
+Version: 02.01.01
+****************************************************
+Release Dt.: 18-March-2014
+User Guide Version: RAS Production Tool Guide 02 01 10, RAS Production Tool Installation Guide 01 00 00
+Modification:
+- Add Device Testing in production tool.
+- Add print QR label option in all device device(Not in Keyfob) and reprint label functionality. By default all QR label checkbox is checked.
+
+Issue:
+- If only one test checkbox is not checked in test list and user fastly double click on it then ‘Test All’ checkbox checked event is disturbed. 
+- During device testing if user moving or dragging the popup then it’s not closed. Multiple popup open if user have selected or dragged the popup.
+- RAS production tool will display one popup if BarTender deriver is not installed. And if user will press ‘No’ button then current running process
+  is not kill from system services. And if user retry to run the RAS production tool then production tool will show the message on screen,
+ ‘Another instance of the application is already running‘.
+
+Version: 01.01.32
+****************************************************
+Release Dt.: 25-Feb-2014
+User Guide Version: RAS Production Tool Guide 02 01 10, RAS Production Tool Installation Guide 01 00 00
+Modification:
+- Display Factory Code in Smart Safe GUI. And change Admin Interface GUI Gridview display.
+
+Issue:
+- If user has set wrong default printer then production tool will not display or give and message on screen.
+
+Version: 01.01.31
+****************************************************
+Release Dt.: 22-Feb-2014
+User Guide Version: RAS Production Tool User Guide 02 01 09
+Modification:
+- Update the FWOLib file 1.0.12.0.
+- Add Action related messages after perform action on the device.
+- In Admin Interface, Add Software Ver., Hardware Ver., PCB Mfg Date and Device Type in Device Information gridview GUI. And also export this new detail in file.
+- In Admin Interface, Add Device Type list in Build Code Information GUI and also add Device Type in gridview GUI. And also export this new detail in file.
+- Set Actions list checkbox are selected in all device which actions are required for fresh device.(In BTIP Gateway, Mortise Door)
+- Add 'Installation Guide' and 'Production Tool Guide' menu options in Help menu.
+- Pass 'Device Type' during to generate Build code.
+
+Issue:
+- 'Installation Guide' file and 'Production Tool Guide' files are same in Help menu.
+- If user has set wrong default printer then production tool will not display or give and message on screen.  
+
+
+Version: 01.01.30
+****************************************************
+Release Dt.: 14-Feb-2014
+User Guide Version: RAS Production Tool User Guide 02 01 07
+Modification:
+- Remove 'HH:mm:ss' from Manufacturing Date. Display only Date in Device Configuration Settings.
+- If user want to 'Load Firmware' in Smart Deadbolt and Smart Safe, at that time by default 'Configure' checkbox is checked and if user uncheck the 'Load Firmware' checkbox then user can perform only 'Configure' action on the device.
+
+Issue Solve(01.01.29): 
+- Display Full Status message in GUI when Perform Action on the device.
+- GUI settings are Set in Device configuration settings.
+
+Version: 01.01.29
+****************************************************
+Release Dt.: 13-Feb-2014
+User Guide Version: RAS Production Tool User Guide 02 01 07
+Modification:
+- Remove Model# column from Admin Interface.
+- Change some Status message and Change GUI display in Main Page.
+- Use 'RAS_DeviceList_Rev4.xlsx' file for to store device information.
+- Update the FWOLib file 1.0.11.0.
+Open Issue:
+- Status message will be cut in GUI during perform the action on the device.(In Keyfob Device, BTIP GW etc.)
+- GUI settings are not done in Device configuration settings.
+
+Version: 01.01.28
+****************************************************
+Release Dt.: 12-Feb-2014
+User Guide Version: RAS Production Tool User Guide 02 01 07
+Modification:
+- Add ‘SR COM board’ and ‘Safe COM Board’ settings in GUI.
+- Remove Reprint functionality for ‘SR COM board’ and ‘Safe COM Board’.
+- Remove Device Type selection from Reprint Label GUI.
+- Rename 'Print Label' title to 'Reprint Label'.
+- Use 'RAS_DeviceList_Rev3.xlsx' file for to store device information.
+- Update the FWOLib file 1.0.10.0.
+- Add two status messages in Admin Interface GUI. First status message will be display above Device Information and second one message will be display above Build code information. 
+
+Version: 01.01.27
+****************************************************
+Release Dt.: 05-Feb-2014
+User Guide Version: RAS Production Tool User Guide 02 01 07
+Modification:
+- Compare Device serial# with Selected device type during print Label functinality.
+- use 'RAS_DeviceList_Rev2.xlsx' file for to store device information.
+- Update the FWOLib file 1.0.9.0.
+- Add Help File.
+
+Version: 01.01.26
+****************************************************
+Release Dt.: 03-Feb-2014
+User Guide Version: RAS Production Tool User Guide 02 01 05
+Modification:
+- Add Manufacturing code and Comments in Print Label GUI. And update that information on server.
+- Add comments column in Admin Interface. And add View form.
+- Remove Build# column in Device Information.
+- Add filter based on Product Mfg Info  in Admin Interface.
+- Add Model Number in Menu list.
+- Take Model# and FCC ID from server.
+- Rename 'PO Information' to 'PCB Mfg Date' and Change 'Manufacturing Information' to 'Product Mfg Info' in config settings.
+- Update the FWOLib file 1.0.8.0.
+
+
+Version: 01.01.25
+****************************************************
+Release Dt.: 28-Jan-2014
+User Guide Version: RAS Production Tool User Guide 02 01 05
+Modification:
+- Modify the status messages.
+- Update the FWOLib file 1.0.7.0.
+Issue in Version 01.01.24
+- User can't reprint the label if 'Print Label' is disable in settings.
+Issue Solve:
+- User can reprint the data if 'Print Label' is disable in settings.
+
+Version: 01.01.24
+****************************************************
+Release Dt.: 24-Jan-2014
+User Guide Version: RAS Production Tool User Guide 02 01 03
+Functionality:
+- Add 'Light' device in device list.
+Modification:
+- Rename 'RAS_DeviceList.xlsx' file to 'RAS_DeviceList_Rev1.xlsx'.
+- Update the FWOLib file 1.0.6.0.
+
+
+Version: 01.01.23
+****************************************************
+Release Dt.: 22-Jan-2014
+User Guide Version: RAS Production Tool User Guide 02 01 03
+Modification:
+- Rename 'BLE Smart Deadbolt' to 'SR Com Board' and 'BLE Smart Safe' to 'Safe Com Board'.
+- Add PO Information# in Smart Safe, Smart Garage, Dual Mode, BTIP Gateway and Mortice Door configuration settings GUI.
+- Remove Configuration Status and Number of users from BTIP Gateway and Mortice Door configuration settings GUI. And do not configure this two config parameter.
+- Update the RAS_Device list file.
+
+Version: 01.01.22
+****************************************************
+Release Dt.: 17-Jan-2014
+User Guide Version: RAS Production Tool User Guide 02 01 02
+Modification:
+- Remove DAQ from devices.
+- Add BLE Smart Deadbolt, Smart Deadbolt, BLE Smart Safe, Dual Mode, Mortise Door, BTIP Gateway device in device list and add there functionalities.
+- Add label selection settings and #of Label copy option in all device settings.
+- Put Device Load Firmware and configure, Print Label and device settings in main panel GUI.
+- Update the FWOLib file 1.0.5.0.
+
+Open issue:
+- If BLE Smart Deadbolt or BLE Smart Safe devices are configure more than one time in Smart Deadbolt or Smart Safe, Production tool enter device detail on server How many  times user has perform the configure action on same device. In device detail, we have found same device name but serial# is different. 
+Open issue Closed:
+- As per Jatin and Ashok discussion on 20-Jan-2014, the duplication of Same Device name on RAS server is allowed. Production tool will take last Serial# which one given to the device.  
+
+
+Version: 01.01.21
+****************************************************
+Release Dt.: 31-Dec-2013
+User Guide Version: RAS Production Tool User Guide 01 01 12
+Modification:
+- Remove DAQ in Communication board with Housing and Without Housing. No any DAQ test run.
+
+Version: 01.01.20
+****************************************************
+Release Dt.: 12-Dec-2013
+User Guide Version: RAS Production Tool User Guide 01 01 12
+Modification:
+- Print Label in Smart Garage device and also change device list file.
+
+Version: 01.01.19
+****************************************************
+Release Dt.: 29-Nov-2013
+User Guide Version: RAS Production Tool User Guide 01 01 12
+Modification:
+- Add 'Smart Safe' device in Re-print label GUI.
+- Add 'Configure Manual Serial#' in 'Smart Garage' device.
+- Reset FCC Id configuration parameter length 16 instead of 8 in 'Smart Garage' in 'Smart Safe'.
+
+Bug in Version: 01.01.18:
+- Tool configured 8 digits FCC ID in 'Smart Garage' in 'Smart Safe' instead of 16 digit length.
+
+
+Version: 01.01.18
+****************************************************
+Release Dt.: 14-Nov-2013
+User Guide Version: RAS Production Tool User Guide 01 01 11
+Modification:
+- Modified and add search device option like Device Type,Device Name,Serial# or all in 'Admin Interface' GUI.
+
+Database Change:
+- Add 'Device Type column' in RAS Serial table and modified sp_getDeviceDetail,sp_RASRegisterSerail stored procedure.
+
+Version: 01.01.17
+****************************************************
+Release Dt.: 02-Nov-2013
+User Guide Version: RAS Production Tool User Guide 01 01 11
+Add Device:
+- Add Smart Safe and Smart Garage in Device List. And also add thare configuration settings,modifide Configuration file and Update PortInfo XML File.
+- Update the FWOLib file 1.0.2.0.
+- Add Enable/Disable Print Lable option in Keyfob settings.
+- Add 'Admin Interface' option Menu Item. User can search Device or Build code information in this functionality. 
+
+Version: 01.01.16
+****************************************************
+Release Dt.: 22-Oct-2013
+User Guide Version: RAS Production Tool User Guide 01 01 11
+Modification:
+- In Keyfob with peripheral test, User do not required to connect or select any DAQ and COM port.
+- Do not Init. the DAQ and COM port in Keyfob with peripheral test. Can't read Welcome MSG in Keyfob with peripheral test.
+- Change the FWOLib file.(Generate RAS Lock Serial#like RAS00XXXXXXXXXXX.)
+
+Version: 01.01.15
+****************************************************
+Release Dt.: 18-Oct-2013
+User Guide Version: RAS Production Tool User Guide 01 01 10
+Bug in Version: 01.01.13:
+- If user stop any device test and than after user directly select label print option with 'Print label with existing info.' than tool is not applicable to read Serial Number.
+
+Issue solved :
+- Read Serial Number in Label Printing if user stop any device test.
+Modification:
+- Take care for COM port during test time. if user unplug the COM port.
+- If user stop the test at that time disable button.
+- Add Smart Safe in Device and add pogramming for Load Firmware and configure.
+- Add Software Ver. and Hardware Ver. in Keyfob Setting.
+- Add Label Print in Keyfob test.
+- Change the Device List file because add Print Label Column in Key fob, Also add Smart Safe Sheet. 
+
+****************************************************
+Version: 01.01.14
+****************************************************
+Release Dt.: 12-Oct-2013
+User Guide Version: RAS Production Tool User Guide 01 01 10
+Bug in Version: 01.01.13:
+- In COM Board with Housing with peripheral test, Tool waiting for welcome message after configure the device. 
+
+Issue solved :
+- Tool does not waiting for to get welcome message after configure the COM board in COM Board with Housing.
+
+Modification:
+- Add peripheral option in COM board without Housing and Keyfob.
+- Tool print label when user erase all parameters and reconfigure all parameters in COM board without housing.
+- Add 'Print label with existing information' in Label Print. Tool read RAS Lock# from device and take all information from server than after print label.
+- Add Build# and 'Register Device Name' column in COM board without Housing sheet.And make some change to store device test result in DeviceList file.
+- Remove to display stause of to store Device Test result in device list file and also remove Display test status Pass or fail at the end.
+
+****************************************************
+Version: 01.01.13
+****************************************************
+Release Dt.: 09-Oct-2013
+User Guide Version: RAS Production Tool User Guide 01 01 10
+Bug in Version: 01.01.12:
+- In COM Board with Housing, Tool print the labels without Model# and FCCID.
+- In Motor Board with Housing and Motor Board Without Housing, Location change of Stop button does not display on correct location.  
+
+Issue solved :
+- Separate label printing for COM board with housing and without housing.IN COM board with housing,label printing time tool take Model#,FCCID from settings.
+   And IN COM board without housing,label printing time tool take Model#,FCCID from BLE Device. 
+
+****************************************************
+Version: 01.01.12
+****************************************************
+Release Dt.: 09-Oct-2013
+User Guide Version: RAS Production Tool User Guide 01 01 09
+Modification:
+- Add “Do not test Peripherals” option in COM board with housing. and put Reprint option in Menu.Creat reprint panel in GUI.
+
+****************************************************
+Version: 01.01.11
+****************************************************
+Release Dt.: 08-Oct-2013
+User Guide Version: RAS Production Tool User Guide 01 01 07
+Modification:
+- When tool configure RAs Lock in COM board with housing and only selected Load Firmware at that time tool read Software Version from Settings.
+- Save device selection in Configuration file.
+
+****************************************************
+Version: 01.01.10
+****************************************************
+Release Dt.: 04-Oct-2013
+User Guide Version: RAS Production Tool User Guide 01 01 06
+Modification:
+- Add Reprint label option in settings. Chang FWOLib file.Get RAS lock detail from server and read Model# and FCCId in config file than after reprint the labels.
+
+****************************************************
+Version: 01.01.09
+****************************************************
+Release Dt.: 03-Oct-2013
+User Guide Version: RAS Production Tool User Guide 01 01 06
+Modification:
+- Add 'ChangeConfig' column in Config file. and When tool launch,It's check 'ChangeConfig' column exits in config file or not 
+if not than it will add 'ChangeConfig' column in configuration and rest 'Auto Lock Time' in Config,NS BLE and TI BLE.
+
+****************************************************
+Version: 01.01.08
+****************************************************
+Release Dt.: 30-Sep-2013
+User Guide Version: RAS Production Tool User Guide 01 01 06
+Modification:
+- Store COM Port and DAQ selection in PortInfo.xml file.
+- Change Setting panel labels name.
+- Add Erase all configuration Info and print new labels,reconfigure all parameters in COM board with housing.
+- Add some fields like Configure,Register Device Name,Print Label and Build No in device list file. and change device list file related code.
+Note :
+- Before install this Release(01.01.08), please first rename device list file. and when user launch this new tool it will copy device list file from backup folder.
+Go to "C:\Program Files or Program Files(x86)\Belwith\RAS Production Tool" and rename 'RAS_DeviceList.xlsx' list file.
+****************************************************
+Version: 01.01.07
+****************************************************
+Release Dt.: 25-Sep-2013
+User Guide Version: RAS Production Tool User Guide 01 01 06
+Issue in Version 01.01.06:
+- When user testing EXT Switch in Communication board and after tool store EXT Switch Test result in Test Result DataTable at that time Tool crashed.
+So, In 01.01.07 Tool, To rename Device Test Result DataTable column name 'colExtSwitch' to 'colSmartbutton' in Comm. board with housing and without housing.
+Modification:
+- Store Load Firmware error in Log File when Load Firmware is failed or crashed.(in Comm. Board & Keyfob test)
+****************************************************
+Version: 01.01.06
+****************************************************
+Release Dt.: 13-Sep-2013
+User Guide Version: RAS Production Tool User Guide 01 01 06
+Modification:
+- GUI Changes,
+	- Display Test List in Test Table and Removed Action label.
+        - Change NS BLE,Keyfob and Comm. without housing Images. 
+        - Add PIR Sensor Status in GUI.
+- In Motor Board, Rename Learn Switch to Smart Button,PIR Sensor to Motion Sensor.
+- In Comm. Board, Rename EXT Switch to Smart Button.
+- Put single firmware selection in BLE Config. setting. Remove BLE Firmware selection in Comm. Board settings.
+****************************************************
+Version: 01.01.05
+****************************************************
+Release Dt.: 06-Sep-2013
+User Guide Version: RAS Production Tool User Guide 01 01 06
+Functionality:
+- Add 'Key Fob','NS BLE' in Device List and modified Key Fob related code.
+****************************************************
+Version: 01.01.04
+****************************************************
+Release Dt.: 27-Aug-2013
+User Guide Version: RAS Production Tool User Guide 01 01 06
+Functionality:
+- Add 'Comm. Board Without Housing','Comm. Board With Housing','Motor Board Without Housing' and 'Motor Board With Housing' in Device List. And Test all this device by using this Tool.
+****************************************************
+
+
